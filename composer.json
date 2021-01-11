@@ -1,6 +1,6 @@
 {
-    "name": "xjryanse/customer",
-    "description": "可复用的客户管理模块，基于TP框架",
+    "name": "xjryanse/echarts",
+    "description": "对接echarts图表，后端生成数据供前端直接调用",
     "type": "library",
     "authors": [
         {
@@ -9,12 +9,11 @@
         }
     ],
     "require": {
-        "xjryanse/system": "0.0.*"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-          "xjryanse\\customer\\": "src/"
+          "xjryanse\\echarts\\": "src/"
         }
     }
 }
