@@ -1,0 +1,20 @@
+{
+    "name": "xjryanse/customer",
+    "description": "可复用的客户管理模块，基于TP框架",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xjryanse",
+            "email": "xjryanse@sina.com"
+        }
+    ],
+    "require": {
+        "xjryanse/system": "0.0.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "xjryanse\\customer\\": "src/"
+        }
+    }
+}
